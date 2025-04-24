@@ -152,7 +152,7 @@ public class HomeFragment extends Fragment {
                         public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                             // Retrieve the trash level value
                             int trashLevel = dataSnapshot.getValue(Integer.class);
-//                            int trashLevel = 90;
+//                            int trashLevel = 100;
 
                             if(trashLevel<50){
                                 progressBarYellow.setVisibility(view.GONE);

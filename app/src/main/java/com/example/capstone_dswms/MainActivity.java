@@ -278,6 +278,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onDataChange(DataSnapshot dataSnapshot) {
                             // Get the trashLevel value from the dataSnapshot
                             Integer trashLevelValue = dataSnapshot.getValue(Integer.class);
+//                            Integer trashLevelValue = 100;
 
                             // Check if the trashLevel has reached 100
                             if (trashLevelValue != null && trashLevelValue >= 100) {
